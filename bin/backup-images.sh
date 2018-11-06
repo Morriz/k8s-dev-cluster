@@ -5,6 +5,7 @@ root=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )
 eval $(minikube docker-env);
 
 destination=$root/minidata/images
+mkdir -p $destination > /dev/null
 
 if ! type "pv" > /dev/null; then
 	echo 'pv' command not found on your system, install it to get a nice progress indicator...

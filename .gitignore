@@ -3,6 +3,4 @@
 .idea
 .history
 .vagrant
-secrets/*.sh
-!secrets/*.sample.sh
 minidata
