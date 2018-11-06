@@ -4,9 +4,5 @@
 .history
 .vagrant
 secrets/*.sh
-!secrets/*.sample.sharts
-charts/efk
-charts/efk-stack-helm
-charts/elasticsearch-operator
+!secrets/*.sample.sh
 minidata
-values/efk.yaml
